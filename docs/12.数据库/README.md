@@ -11,7 +11,7 @@ hidden: true
 
 <p align="center">
     <a href="https://dunwu.github.io/db-tutorial/" target="_blank" rel="noopener noreferrer">
-        <img src="https://raw.githubusercontent.com/dunwu/images/dev/common/dunwu-logo.png" alt="logo" width="150px"/>
+        <img src="https://raw.githubusercontent.com/dunwu/images/master/common/dunwu-logo.png" alt="logo" width="150px"/>
     </a>
 </p>
 
@@ -48,28 +48,28 @@ hidden: true
 
 #### 分布式理论
 
-- [分布式理论](https://dunwu.github.io/design/pages/367308/)
-- [深入剖析共识性算法 Paxos](https://dunwu.github.io/design/pages/874539/)
-- [深入剖析共识性算法 Raft](https://dunwu.github.io/design/pages/e40812/)
-- [分布式算法 Gossip](https://dunwu.github.io/design/pages/d15993/)
+- [分布式一致性](https://dunwu.github.io/blog/pages/dac0e2/)
+- [深入剖析共识性算法 Paxos](https://dunwu.github.io/blog/pages/874539/)
+- [深入剖析共识性算法 Raft](https://dunwu.github.io/blog/pages/e40812/)
+- [分布式算法 Gossip](https://dunwu.github.io/blog/pages/d15993/)
 
 #### 分布式关键技术
 
 ##### 流量调度
 
-- [流量控制](https://dunwu.github.io/design/pages/282676/)
+- [流量控制](https://dunwu.github.io/blog/pages/282676/)
 - [负载均衡](https://dunwu.github.io/blog/pages/98a1c1/)
-- [服务路由](https://dunwu.github.io/design/pages/d04ece/)
-- [分布式会话基本原理](https://dunwu.github.io/design/pages/3e66c2/)
+- [服务路由](https://dunwu.github.io/blog/pages/d04ece/)
+- [分布式会话基本原理](https://dunwu.github.io/blog/pages/3e66c2/)
 
 ##### 数据调度
 
-- [缓存基本原理](https://dunwu.github.io/design/pages/471208/)
-- [读写分离基本原理](https://dunwu.github.io/design/pages/7da6ca/)
-- [分库分表基本原理](https://dunwu.github.io/design/pages/103382/)
-- [分布式 ID 基本原理](https://dunwu.github.io/design/pages/0b2e59/)
-- [分布式事务基本原理](https://dunwu.github.io/design/pages/910bad/)
-- [分布式锁基本原理](https://dunwu.github.io/design/pages/69360c/)
+- [缓存基本原理](https://dunwu.github.io/blog/pages/471208/)
+- [读写分离基本原理](https://dunwu.github.io/blog/pages/7da6ca/)
+- [分库分表基本原理](https://dunwu.github.io/blog/pages/103382/)
+- [分布式 ID 基本原理](https://dunwu.github.io/blog/pages/0b2e59/)
+- [分布式事务基本原理](https://dunwu.github.io/blog/pages/910bad/)
+- [分布式锁基本原理](https://dunwu.github.io/blog/pages/69360c/)
 
 ### 其他
 
@@ -86,15 +86,17 @@ hidden: true
 
 > [关系型数据库](03.关系型数据库) 整理主流关系型数据库知识点。
 
-### 公共知识
+### 关系型数据库综合
 
 - [关系型数据库面试总结](03.关系型数据库/01.综合/01.关系型数据库面试.md) 💯
-- [SQL Cheat Sheet](03.关系型数据库/01.综合/02.SqlCheatSheet.md) 是一个 SQL 入门教程。
-- [扩展 SQL](03.关系型数据库/01.综合/03.扩展SQL.md) 是一个 SQL 入门教程。
+- [SQL 语法基础特性](03.关系型数据库/01.综合/02.SQL语法基础特性.md)
+- [SQL 语法高级特性](03.关系型数据库/01.综合/03.SQL语法高级特性.md)
+- [扩展 SQL](03.关系型数据库/01.综合/03.扩展SQL.md)
+- [SQL Cheat Sheet](03.关系型数据库/01.综合/99.SqlCheatSheet.md)
 
 ### Mysql
 
-![img](https://raw.githubusercontent.com/dunwu/images/dev/snap/20200716103611.png)
+![img](https://raw.githubusercontent.com/dunwu/images/master/snap/20200716103611.png)
 
 - [Mysql 应用指南](03.关系型数据库/02.Mysql/01.Mysql应用指南.md) ⚡
 - [Mysql 工作流](03.关系型数据库/02.Mysql/02.MySQL工作流.md) - 关键词：`连接`、`缓存`、`语法分析`、`优化`、`执行引擎`、`redo log`、`bin log`、`两阶段提交`
@@ -137,7 +139,7 @@ hidden: true
 
 ### Redis
 
-![img](https://raw.githubusercontent.com/dunwu/images/dev/snap/20200713105627.png)
+![img](https://raw.githubusercontent.com/dunwu/images/master/snap/20200713105627.png)
 
 - [Redis 面试总结](05.KV数据库/01.Redis/01.Redis面试总结.md) 💯
 - [Redis 应用指南](05.KV数据库/01.Redis/02.Redis应用指南.md) ⚡ - 关键词：`内存淘汰`、`事件`、`事务`、`管道`、`发布与订阅`
@@ -153,12 +155,16 @@ hidden: true
 
 ### HBase
 
-> [HBase](https://dunwu.github.io/bigdata-tutorial/hbase) 📚 因为常用于大数据项目，所以将其文档和源码整理在 [bigdata-tutorial](https://dunwu.github.io/bigdata-tutorial/) 项目中。
-
-- [HBase 原理](https://github.com/dunwu/bigdata-tutorial/blob/master/docs/hbase/HBase原理.md) ⚡
-- [HBase 命令](https://github.com/dunwu/bigdata-tutorial/blob/master/docs/hbase/HBase命令.md)
-- [HBase 应用](https://github.com/dunwu/bigdata-tutorial/blob/master/docs/hbase/HBase应用.md)
-- [HBase 运维](https://github.com/dunwu/bigdata-tutorial/blob/master/docs/hbase/HBase运维.md)
+- [HBase 快速入门](06.列式数据库/01.HBase/01.HBase快速入门.md)
+- [HBase 数据模型](06.列式数据库/01.HBase/02.HBase数据模型.md)
+- [HBase Schema 设计](06.列式数据库/01.HBase/03.HBaseSchema设计.md)
+- [HBase 架构](06.列式数据库/01.HBase/04.HBase架构.md)
+- [HBase Java API 基础特性](06.列式数据库/01.HBase/10.HBaseJavaApi基础特性.md)
+- [HBase Java API 高级特性之过滤器](06.列式数据库/01.HBase/11.HBaseJavaApi高级特性之过滤器.md)
+- [HBase Java API 高级特性之协处理器](06.列式数据库/01.HBase/12.HBaseJavaApi高级特性之协处理器.md)
+- [HBase Java API 其他高级特性](06.列式数据库/01.HBase/13.HBaseJavaApi其他高级特性.md)
+- [HBase 运维](06.列式数据库/01.HBase/21.HBase运维.md)
+- [HBase 命令](06.列式数据库/01.HBase/22.HBase命令.md)
 
 ## 搜索引擎数据库
 
